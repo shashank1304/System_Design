@@ -1,5 +1,5 @@
-# System_Design
-## Essential Topics for learning System Design
+                                        System_Design
+ Essential Topics for learning System Design
 1. Client-Server Architecture
 2. IP Address
 3. Domain Name System (DNS)
