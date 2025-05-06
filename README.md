@@ -16,7 +16,8 @@
 12. Vertical Scaling
 13. Horizontal Scaling
 14. Load Balancer.
-                (Load Balancer Algorithm: 1.Round Robin 2.Least Connection)
+
+    --------------- (Load Balancer Algorithm: 1.Round Robin 2.Least Connection)
 15. Database Indexing
 
 16. Replication.
@@ -34,7 +35,8 @@
 26. MicroServices
 27. Message Queues
 28. Rate Limiting
-                 (Rate Limiting Algorithm : Fixed Window, Sliding Window, Token Bucket)
-29. APL Gateways
+
+    --------------(Rate Limiting Algorithm : Fixed Window, Sliding Window, Token Bucket)
+29. API Gateways
 30. Idempotency     
 
