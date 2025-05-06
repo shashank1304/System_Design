@@ -8,3 +8,7 @@ Client: **A program or device that sends requests to a server.**
 
 Server: **A program or device that listens for requests from clients and responds to them.**
 
+# 2. IP ADDRESS
+# 3. DOMAIN NAME SYSTEM
+# 4. PROXY & REVERSE PROXY
+# 5. LATENCY
