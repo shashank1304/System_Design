@@ -102,7 +102,7 @@ Dynamic IP: **Temporarily assigned, can change.**
 
 -----255.255.255.255: **Broadcast address**
 
-                                      COMMON USES
+                                             COMMON USES
 -----**Network identification**
 
 -----**Location tracking**
@@ -133,21 +133,21 @@ Dynamic IP: **Temporarily assigned, can change.**
 
 -----5. Browser connects to the website
 
-                                     DNS Hierarchy
--- **1.Root Servers (.)**
+                                        DNS Hierarchy
+**1.Root Servers (.)**
 
--- **2.Top-Level Domain (TLD) Servers**
+ **2.Top-Level Domain (TLD) Servers**
 ----(.com, .org, .net, .edu)
 
-**Country codes**: .uk, .in, .jp
+----**Country codes**: .uk, .in, .jp
 
---**3.Authoritative Name Servers**
+**3.Authoritative Name Servers**
 
 -----Specific to domains
 
 -----Hold actual DNS records
 
-                                  Common DNS Record Types
+                                      Common DNS Record Types
 -----**A Record**: Maps domain to IPv4 address
 
 -----**AAAA Record**: Maps domain to IPv6 address
@@ -163,7 +163,7 @@ Dynamic IP: **Temporarily assigned, can change.**
 
 # 4. PROXY & REVERSE PROXY
 
-                              Forward Proxy (Regular Proxy)
+                                                      Forward Proxy (Regular Proxy)
 
 A forward proxy sits **between clients and the internet**, 
 
@@ -177,9 +177,10 @@ acting on behalf of clients to:
 
 -----**Filter content.**
 
+
 Structure:          **CLIENT -----> PROXY -----> INTERNET**
 
-                                Use Cases
+                                                           Use Cases
 -----Corporate networks.
 
 -----School networks.
@@ -188,5 +189,110 @@ Structure:          **CLIENT -----> PROXY -----> INTERNET**
 
 -----Content filtering.
 
+                                                        Reverse Proxy
+A reverse proxy sits **between clients and backend servers**, 
+
+acting on behalf of servers to:
+
+-----**Load balancing.**
+
+-----**SSL termination.**
+
+-----**Caching.**
+
+-----**Security (DDoS protection).**
+
+**STRUCTURE:**               **Internet ----> ReverseProxy ----> Servers**
+
+                                                           Use Cases
+-----**Content Delivery Networks (CDN)**
+
+-----**API Gateways**
+
+-----**Load Balancers**
+
+-----**Web Application Firewalls**
+
+                                                       Common Proxy Software
+-----**Forward Proxy:** Squid, Nginx
+
+-----**Reverse Proxy:** Nginx, HAProxy, Traefik
+
+-----**Both:** Apache with mod_proxy
+
+                                                     Key Benefits
+-----**Security:** Acts as a firewall
+
+-----**Performance:** Caching and compression
+
+-----**Load Distribution:** Balance traffic across servers
+
+-----**SSL Termination:** Handle HTTPS encryption/decryption
+
+-----**Monitoring:** Log and analyze traffic
+
 
 # 5. LATENCY
+Latency is the time delay between the cause and effect of some physical change in the system being observed.
+
+                                                    Types of Latency
+**1. Network Latency**
+
+-----Time taken **for data to travel from source to destination**
+
+-----Measured in **milliseconds (ms)**
+
+-----**Components:**
+
+------------------**1. Transmission delay**
+
+------------------**2. Propagation delay**
+
+------------------**3. Processing delay**
+
+------------------**4. Queuing delay**
+
+**2. Application Latency**
+
+-----Time taken **for an application to process a request**
+
+**Includes:**
+
+-----------**Database queries**
+
+-----------**API calls**
+
+-----------**Data processing**
+
+-----------**Rendering time**
+
+                                                  Common Sources of Latency
+**1.Physical Distance**
+
+-----Geographic separation between client and server
+
+-----Speed of light limitations
+
+**2.Network Infrastructure**
+
+-----Router hops
+
+-----Network congestion
+
+-----Bandwidth limitations
+
+**3.Server Processing**
+
+-----CPU processing time
+
+-----Memory access
+
+-----Disk I/O
+
+**4.Database Operations**
+
+-----Query execution
+
+-----Index lookups
+
+-----Table scans
