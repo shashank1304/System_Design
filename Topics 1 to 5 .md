@@ -1,3 +1,10 @@
 # 1. Client - Server Architecture
 -----**Client-Server** architecture is a **Network Model** where **client devices (like your computer or phone) request services or data from a central server.**
  
+
+                                              Basic Concepts
+
+Client: **A program or device that sends requests to a server.**
+
+Server: **A program or device that listens for requests from clients and responds to them.**
+
