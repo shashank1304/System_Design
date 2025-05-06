@@ -41,7 +41,7 @@ Adds more layers like caching servers, load balancers, etc., for large-scale sys
 
 -----Assigned to each **device connected to a computer network** that uses the Internet Protocol for communication.
 
-                                    Types of IP Addresses
+                                              Types of IP Addresses
 
 1. **IPv4 (Internet Protocol Version 4)**
 
@@ -63,7 +63,7 @@ Adds more layers like caching servers, load balancers, etc., for large-scale sys
 
 -----Total possible addresses: ~340 undecillion
 
-                             Categories of IP Addresses
+                                          Categories of IP Addresses
 1. **Public IP Address**
 
 -----Globally unique
@@ -94,7 +94,7 @@ Static IP: **Permanently assigned, doesn't change.**
 
 Dynamic IP: **Temporarily assigned, can change.**
 
-                                    Special IP Addresses
+                                             Special IP Addresses
 
 -----127.0.0.1: **Localhost** (loopback address)
 
@@ -102,7 +102,7 @@ Dynamic IP: **Temporarily assigned, can change.**
 
 -----255.255.255.255: **Broadcast address**
 
-                                             COMMON USES
+                                                  COMMON USES
 -----**Network identification**
 
 -----**Location tracking**
@@ -120,7 +120,7 @@ Dynamic IP: **Temporarily assigned, can change.**
  It translates **human-readable domain names (like example.com) into IP addresses (like 93.184.216.34)** that computers use to identify each other on the network.
 
 
-                                    How DNS Works
+                                                 How DNS Works
 **DNS Resolution Process:**
 
 -----1. User types website name (e.g., **www.google.com**)
@@ -133,7 +133,7 @@ Dynamic IP: **Temporarily assigned, can change.**
 
 -----5. Browser connects to the website
 
-                                        DNS Hierarchy
+                                                     DNS Hierarchy
 **1.Root Servers (.)**
 
  **2.Top-Level Domain (TLD) Servers**
@@ -147,7 +147,7 @@ Dynamic IP: **Temporarily assigned, can change.**
 
 -----Hold actual DNS records
 
-                                      Common DNS Record Types
+                                                  Common DNS Record Types
 -----**A Record**: Maps domain to IPv4 address
 
 -----**AAAA Record**: Maps domain to IPv6 address
