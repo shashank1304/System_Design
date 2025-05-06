@@ -296,3 +296,42 @@ Latency is the time delay between the cause and effect of some physical change i
 -----Index lookups
 
 -----Table scans
+
+                                          Reducing Latency
+1. **Content Delivery Networks (CDN)**
+
+---Cache content closer to users
+
+---Distribute load across servers
+
+2. **Caching Strategies**
+
+---Browser caching
+
+---Server-side caching
+
+---Database query caching
+
+3. **Database Optimization**
+
+---Proper indexing
+
+---Query optimization
+
+---Connection pooling
+
+4. **Code Optimization**
+
+---Efficient algorithms
+
+---Minimizing I/O operations
+
+---Asynchronous processing
+
+5. **Infrastructure Improvements**
+
+---Server location optimization
+
+---Network infrastructure upgrades
+
+---Load balancing
