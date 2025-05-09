@@ -51,7 +51,29 @@ Protocols for transmitting **data between clients and servers on the web.**
 ---500: Internal Server Error
 
 ---503: Service Unavailable
+
 # 7. APIs
+An interface that **enables software applications to communicate and share data using a set of defined rules and protocols.**
+
+**Types of APIs**
+1. Based on Architecture
+
+-----**REST** (Representational State Transfer)
+
+-----**GraphQL** (Query Language for APIs)
+
+-----**SOAP** (Simple Object Access Protocol)
+
+-----**WebSocket** (Real-time bidirectional communication)
+
+2. Based on Access
+
+-----**Public APIs** (Open to public use)
+
+-----**Private APIs** (Internal use only)
+
+-----**Partner APIs** (Specific authorized partners)
+
 # 8. REST API
 # 9. GRAPH QL
 # 10. DATABASES
