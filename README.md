@@ -18,26 +18,31 @@
 13. Horizontal Scaling
 14. Load Balancer.
 
-    --------------- (Load Balancer Algorithm: 1.Round Robin 2.Least Connection)
-15. Database Indexing
+    Load Balancer Algorithm:
+    - 1.Round Robin
+    - 2.Least Connection
+16. Database Indexing
 
-16. Replication.
-17. Sharding.
-18. Vertical Partitioning
-19. Caching (Cache- aside Pattern).
-20. Denormalization
+17. Replication.
+18. Sharding.
+19. Vertical Partitioning
+20. Caching (Cache- aside Pattern).
+21. Denormalization
 
-21. Cap Theoram
-22. Blob Storage
-23. Content Delivery Network (CDN)
-24. WebSockets
-25. WebHooks 
+22. Cap Theoram
+23. Blob Storage
+24. Content Delivery Network (CDN)
+25. WebSockets
+26. WebHooks 
 
-26. MicroServices
-27. Message Queues
-28. Rate Limiting
+27. MicroServices
+28. Message Queues
+29. Rate Limiting
 
-    --------------(Rate Limiting Algorithm : Fixed Window, Sliding Window, Token Bucket)
-29. API Gateways
-30. Idempotency     
+    Rate Limiting Algorithm :
+    - Fixed Window,
+    - Sliding Window,
+    - Token Bucket)
+31. API Gateways
+32. Idempotency     
 
